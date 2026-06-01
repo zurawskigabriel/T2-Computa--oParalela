@@ -25,4 +25,3 @@ Os trabalhadores, por sua vez, recebem os vetores a serem processados, realizam 
 
 ---
 
-Ultima atualizacao: quinta-feira, 14 mai. 2026, 18:40
