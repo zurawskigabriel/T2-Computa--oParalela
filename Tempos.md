@@ -2,49 +2,60 @@
 
 ### Speed-Up - Escalonamento Forte
 
+cp14@atlantica:~/T2-Computa--oParalela$ ./ladEscalonamentoForte.sh
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
 Processos: 2
-----------------------------------------
-Tempo de execucao: 101.7241 segundos
-----------------------------------------
 
+----------------------------------------
+Tempo de execucao: 101.6791 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
-Processos: 4
-----------------------------------------
-Tempo de execucao: 52.4436 segundos
-----------------------------------------
+Processos: 3
 
+----------------------------------------
+Tempo de execucao: 57.9654 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
-Processos: 8
-----------------------------------------
-Tempo de execucao: 27.0152 segundos
-----------------------------------------
+Processos: 5
 
+----------------------------------------
+Tempo de execucao: 44.2346 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
-Processos: 16
-----------------------------------------
-Tempo de execucao: 12.7195 segundos
-----------------------------------------
+Processos: 9
 
+----------------------------------------
+Tempo de execucao: 20.2024 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
-Processos: 32
+Processos: 17
+
 ----------------------------------------
-Tempo de execucao: 6.1325 segundos
+Tempo de execucao: 13.6746 segundos
 ----------------------------------------
+Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Dimensao: 2048 x 2048
+Processos: 33
+
+----------------------------------------
+Tempo de execucao: 5.8397 segundos
+----------------------------------------
+cp14@atlantica:~/T2-Computa--oParalela$
 
 ### Tabela Resumo
 
-Núcleos 	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
-1	                101             	1,0	          1       	    1,0
-3	                52              	1,9	          3       	    0,6
-7	                27              	3,7	          7       	    0,5
-15	                12              	8,4	          15      	    0,6
-31	                6               	16,8	      31      	    0,5
+Núcleos	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
+1	101	1,0	1	1,0
+2	57	1,8	2	0,9
+4	44	2,3	4	0,6
+8	20	5,1	8	0,6
+16	13	7,8	16	0,5
+32	5	20,2	32	0,6
 
 
 ---
@@ -54,46 +65,55 @@ Núcleos 	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
 Processos: 2
-----------------------------------------
-Tempo de execucao: 101.6311 segundos
-----------------------------------------
 
+----------------------------------------
+Tempo de execucao: 101.6668 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 2555 x 2555
-Processos: 4
-----------------------------------------
-Tempo de execucao: 103.1153 segundos
-----------------------------------------
+Dimensao: 2580 x 2580
+Processos: 3
 
+----------------------------------------
+Tempo de execucao: 117.4567 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 3317 x 3317
-Processos: 8
-----------------------------------------
-Tempo de execucao: 101.9390 segundos
-----------------------------------------
+Dimensao: 3250 x 3250
+Processos: 5
 
+----------------------------------------
+Tempo de execucao: 138.1672 segundos
+----------------------------------------
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 4226 x 4226
-Processos: 16
-----------------------------------------
-Tempo de execucao: 110.0662 segundos
-----------------------------------------
+Dimensao: 4096 x 4096
+Processos: 9
 
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 5286 x 5286
-Processos: 32
 ----------------------------------------
-Tempo de execucao: 102.6636 segundos
+Tempo de execucao: 162.3387 segundos
+----------------------------------------
+Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Dimensao: 5160 x 5160
+Processos: 17
+
+----------------------------------------
+Tempo de execucao: 180.6819 segundos
+----------------------------------------
+Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Dimensao: 6502 x 6502
+Processos: 33
+
+----------------------------------------
+Tempo de execucao: 180.8617 segundos
 ----------------------------------------
 
 ### Tabela Resumo
 
-Núcleos 	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
-1	                101	              1,0	            1	        1,0
-3	                103	              1,0	            1	        0,3
-7	                101	              1,0	            1	        0,1
-15	                110	              0,9	            1	        0,1
-31	                102	              1,0	            1	        0,0
+Núcleos	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
+1	101	1,0	1	1,0
+2	117	0,9	2	0,4
+4	138	0,7	4	0,2
+8	162	0,6	8	0,1
+16	180	0,6	16	0,0
+32	180	0,6	32	0,0
 
 
 
