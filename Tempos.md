@@ -2,7 +2,6 @@
 
 ### Speed-Up - Escalonamento Forte
 
-cp14@atlantica:~/T2-Computa--oParalela$ ./ladEscalonamentoForte.sh
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
 Processos: 2
@@ -45,22 +44,20 @@ Processos: 33
 ----------------------------------------
 Tempo de execucao: 5.8397 segundos
 ----------------------------------------
-cp14@atlantica:~/T2-Computa--oParalela$
 
 ### Tabela Resumo
 
-Núcleos	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
-1	101	1,0	1	1,0
-2	57	1,8	2	0,9
-4	44	2,3	4	0,6
-8	20	5,1	8	0,6
-16	13	7,8	16	0,5
-32	5	20,2	32	0,6
 
 
 ---
 
 ### Speed-Up - Escalonamento Fraco
+
+#### Sequencial
+
+
+
+#### Paralelo
 
 Multiplicacao de matrizes com MPI (coordenador/trabalhador)
 Dimensao: 2048 x 2048
@@ -106,14 +103,6 @@ Tempo de execucao: 180.8617 segundos
 ----------------------------------------
 
 ### Tabela Resumo
-
-Núcleos	Tempo de Execução (s)	Speed-Up	Speed-Up Ideal	Eficiência
-1	101	1,0	1	1,0
-2	117	0,9	2	0,4
-4	138	0,7	4	0,2
-8	162	0,6	8	0,1
-16	180	0,6	16	0,0
-32	180	0,6	32	0,0
 
 
 
